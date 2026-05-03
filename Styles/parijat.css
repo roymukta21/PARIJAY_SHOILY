@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&display=swap");
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 :root {
   --primary-color: #d4af37;
   --secondary-color: #1a1a1a;
@@ -16,9 +22,19 @@ body {
   background: var(--background-color);
   color: var(--text-color);
   font-family: "Playwrite NZ Guides", cursive;
+  background: red;
 }
 
 .aline {
   max-width: 1300px;
   margin: 0 auto;
+}
+
+/* navbar */
+nav {
+  background-color: #d4af37;
+}
+
+nav img {
+  width: 120px;
 }
