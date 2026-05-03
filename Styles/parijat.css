@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&display=swap");
+
+:root {
+  --primary-color: #d4af37;
+  --secondary-color: #1a1a1a;
+  --background-color: #0f0f0f;
+  --text-color: #f5e6c8;
+  --white-color: #ffffff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background-color);
+  color: var(--text-color);
+  font-family: "Playwrite NZ Guides", cursive;
+}
+
+.aline {
+  max-width: 1300px;
+  margin: 0 auto;
+}
