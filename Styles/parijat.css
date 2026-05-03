@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playwrite+NZ+Guides&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap');
 
 * {
   margin: 0;
@@ -21,7 +21,7 @@ html {
 body {
   background: var(--background-color);
   color: var(--text-color);
-  font-family: "Playwrite NZ Guides", cursive;
+  font-family: "Playwrite NO", cursive;
 }
 
 .aline {
@@ -31,8 +31,15 @@ body {
 
 /* navbar */
 nav {
+  background: var(--primary-color);
+  display: flex;
+  padding: 0  5%;
+  height: 72px;
+  position: sticky;
+  z-index: 100;
 }
 
 nav img {
-  width: 120px;
+  width: 40px;
+  height: 40px;
 }
