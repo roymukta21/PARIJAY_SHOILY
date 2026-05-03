@@ -22,7 +22,6 @@ body {
   background: var(--background-color);
   color: var(--text-color);
   font-family: "Playwrite NZ Guides", cursive;
-  background: red;
 }
 
 .aline {
@@ -32,7 +31,6 @@ body {
 
 /* navbar */
 nav {
-  background-color: #d4af37;
 }
 
 nav img {
